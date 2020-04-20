@@ -1,0 +1,34 @@
+1) Why did you choose the framework you used?
+I used Espresso because
+    a. It was an opportunity to build up my skills in writing automated test using Espresso.
+    b. It is the framework used by the company.
+
+2) What were the advantages and disadvantages of your choice?
+    Advantages
+        a. Easy to setup
+        b. Speed: The tests scripts execute fast.
+        c. Stability: It is stable due to the fact that is tightly coupled to the native
+           environment and there is continuous support.
+        d. It supports white-box testing making it easier to access identifiers and views
+        e. It supports easy continuous integration as the tests run in the same pipeline
+            as the development code. This makes releasing features to production faster
+    Disadvantages
+        a. It doesn't support cross platform automated testing
+        b. It can only be written in Java or Kotlin
+
+3) What was the most complicated part?
+    Writing a test script for the Search Exercise ListView when the user's Wifi is not switched on.
+    This was complicated because writing a helper function to achieve this on a physical device was
+    hard and writing for just the emulator is not advisable.
+
+4) Which good coding practices did you follow when writing your tests?
+    a. The Page Object Model Design Pattern
+    b. The KISS Principle
+    c. Encapsulation
+    d. Single Responsibility Principle
+
+5) How do you make sure your code is maintainable by other team members?
+
+    a. By using descriptive names when creating variables and functions for easy readability and understandability
+    b. By following the Single Responsibility Principle, ensuring that each test suite caters for only one feature/module of the application
+    c. By creating independent tests
