@@ -14,14 +14,13 @@
 
 ### Execution Instructions
 
-    1) Add ANDROID_HOME to your PATH
-    2) Connect a physical device to your system (ensure USB debugging is enabled)
-    3) Open project in Android Studio
-    4) Open terminal in Android Studio
-    5) Run the following command in terminal
+1) Add ANDROID_HOME to your PATH
+2) Connect a physical device to your system (ensure USB debugging is enabled)
+3) Open project in Android Studio
+4) Open terminal in Android Studio
+5) Run the following command in terminal
 
-    ```bash
-     adb shell am instrument -w com.example.android.gymondoautomationtest.test/androidx.test.runner.AndroidJUnitRunner
-
-    ```
+```bash
+adb shell am instrument -w com.example.android.gymondoautomationtest.test/androidx.test.runner.AndroidJUnitRunner
+```
 
